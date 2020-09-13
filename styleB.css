@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    display: flex;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-color: #eeeff2;
+    font-size:40px;
+    font-style: Tahoma;
+    margin: 10px;
+    border-left:10px dotted #D0D0FF;
+    white-space: nowrap;
+    cursor: pointer;
+
+  
+}
+.box-final{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+.box-final:hover{
+    background-color: cadetblue;
+}
+.box-1:hover{
+    background-color: yellow;
+}
+.box-2:hover{
+    background-color: red;
+}
+.box-3:hover{
+    background-color: purple;
+}
+.box-4:hover{
+    background-color: burlywood
+}
+.box-5:hover{
+    background-color: greenyellow;
+}
