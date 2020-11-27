@@ -1,7 +1,13 @@
 
 body{
     position: relative;
-    display: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 0px;
+    bottom: 0px;
+    min-height: 100vh;
 }
 div{
     height: 100px;
@@ -11,7 +17,8 @@ div{
     border-top: 1px solid #687291;
     font-size: 40px;
     font-style: Tahoma;
-    margin:auto;
+   
+    margin-bottom: 5px;
     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     transition: width 3s;
     transition-delay: 1s;

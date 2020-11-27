@@ -4,7 +4,7 @@ body{
 }
 div{
     display: inline-block;
-    width: 100px;
+    min-width: 100px;
     height: 150px;
     background-color: #eeeff2;
     font-size:40px;
@@ -13,14 +13,15 @@ div{
     border-left:10px dotted #D0D0FF;
     white-space: nowrap;
     cursor: pointer;
+   
 
-  
 }
 .box-final{
     position: fixed;
     right: 0px;
     bottom: 0px;
 }
+
 .box-final:hover{
     background-color: cadetblue;
 }
@@ -39,3 +40,4 @@ div{
 .box-5:hover{
     background-color: greenyellow;
 }
+
